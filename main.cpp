@@ -1,6 +1,11 @@
-#include <iostream>
+#include "BinominalHeap.h"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+#include <iostream>
+#include "Google_tests/heap_test.h"
+
+using namespace std;
+
+int main(){
+    HT::Test test(1'000, 1'000);
+    cout << test.toString();
 }
