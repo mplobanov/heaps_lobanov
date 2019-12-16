@@ -26,5 +26,8 @@ Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o: ../Google_tests/heap_t
 Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o: ../Google_tests/lib/googletest/include/gtest/gtest.h
 Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o: ../Google_tests/test1.cpp
 Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o: ../IHeap.h
+Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o: ../LeftistHeap.h
+Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o: ../LeftistHeap_Good.h
 Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o: ../SimpleHeap.h
+Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o: ../SkewHeap.h
 

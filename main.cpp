@@ -1,11 +1,25 @@
 #include "BinominalHeap.h"
 
 #include <iostream>
-#include "Google_tests/heap_test.h"
+#include "LeftistHeap.h"
 
 using namespace std;
 
 int main(){
-    HT::Test test(1'000, 1'000);
-    cout << test.toString();
+    int x;
+    cin >> x;
+    LeftistHeap hp;
+    while (x != 0) {
+        if (x > 0)
+            hp.insert(x);
+        if (x == -1) {
+            cout << hp.get_min() << endl;
+        }
+        if (x == -2)
+        {
+            cout << hp.extract_min() << endl;
+        }
+        cin >> x;
+    }
+    return 0;
 }

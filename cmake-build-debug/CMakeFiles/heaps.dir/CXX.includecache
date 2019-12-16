@@ -16,25 +16,17 @@ iostream
 list
 -
 
-/Users/mplobanov/CLionProjects/heaps/Google_tests/heap_test.h
-../SimpleHeap.h
-/Users/mplobanov/CLionProjects/heaps/SimpleHeap.h
-vector
--
-
 /Users/mplobanov/CLionProjects/heaps/IHeap.h
 
-/Users/mplobanov/CLionProjects/heaps/SimpleHeap.h
+/Users/mplobanov/CLionProjects/heaps/LeftistHeap.h
 IHeap.h
 /Users/mplobanov/CLionProjects/heaps/IHeap.h
-set
--
 
 /Users/mplobanov/CLionProjects/heaps/main.cpp
 BinominalHeap.h
 /Users/mplobanov/CLionProjects/heaps/BinominalHeap.h
 iostream
 -
-Google_tests/heap_test.h
-/Users/mplobanov/CLionProjects/heaps/Google_tests/heap_test.h
+LeftistHeap.h
+/Users/mplobanov/CLionProjects/heaps/LeftistHeap.h
 

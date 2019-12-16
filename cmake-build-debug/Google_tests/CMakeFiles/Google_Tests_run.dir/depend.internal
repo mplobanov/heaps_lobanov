@@ -27,4 +27,7 @@ Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o
  /Users/mplobanov/CLionProjects/heaps/Google_tests/lib/googletest/include/gtest/gtest.h
  /Users/mplobanov/CLionProjects/heaps/Google_tests/test1.cpp
  /Users/mplobanov/CLionProjects/heaps/IHeap.h
+ /Users/mplobanov/CLionProjects/heaps/LeftistHeap.h
+ /Users/mplobanov/CLionProjects/heaps/LeftistHeap_Good.h
  /Users/mplobanov/CLionProjects/heaps/SimpleHeap.h
+ /Users/mplobanov/CLionProjects/heaps/SkewHeap.h

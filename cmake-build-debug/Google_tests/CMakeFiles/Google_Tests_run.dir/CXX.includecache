@@ -367,6 +367,12 @@ gtest/gtest.h
 /Users/mplobanov/CLionProjects/heaps/BinominalHeap.h
 ../SimpleHeap.h
 /Users/mplobanov/CLionProjects/heaps/SimpleHeap.h
+../LeftistHeap.h
+/Users/mplobanov/CLionProjects/heaps/LeftistHeap.h
+../SkewHeap.h
+/Users/mplobanov/CLionProjects/heaps/SkewHeap.h
+../LeftistHeap_Good.h
+/Users/mplobanov/CLionProjects/heaps/LeftistHeap_Good.h
 heap_test.h
 /Users/mplobanov/CLionProjects/heaps/Google_tests/heap_test.h
 vector
@@ -374,9 +380,21 @@ vector
 
 /Users/mplobanov/CLionProjects/heaps/IHeap.h
 
+/Users/mplobanov/CLionProjects/heaps/LeftistHeap.h
+IHeap.h
+/Users/mplobanov/CLionProjects/heaps/IHeap.h
+
+/Users/mplobanov/CLionProjects/heaps/LeftistHeap_Good.h
+SkewHeap.h
+/Users/mplobanov/CLionProjects/heaps/SkewHeap.h
+
 /Users/mplobanov/CLionProjects/heaps/SimpleHeap.h
 IHeap.h
 /Users/mplobanov/CLionProjects/heaps/IHeap.h
 set
 -
+
+/Users/mplobanov/CLionProjects/heaps/SkewHeap.h
+IHeap.h
+/Users/mplobanov/CLionProjects/heaps/IHeap.h
 

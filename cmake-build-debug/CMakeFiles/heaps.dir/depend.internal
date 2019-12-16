@@ -3,7 +3,6 @@
 
 CMakeFiles/heaps.dir/main.cpp.o
  /Users/mplobanov/CLionProjects/heaps/BinominalHeap.h
- /Users/mplobanov/CLionProjects/heaps/Google_tests/heap_test.h
  /Users/mplobanov/CLionProjects/heaps/IHeap.h
- /Users/mplobanov/CLionProjects/heaps/SimpleHeap.h
+ /Users/mplobanov/CLionProjects/heaps/LeftistHeap.h
  /Users/mplobanov/CLionProjects/heaps/main.cpp

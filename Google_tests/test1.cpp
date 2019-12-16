@@ -4,7 +4,11 @@
 #include "gtest/gtest.h"
 #include "../BinominalHeap.h"
 #include "../SimpleHeap.h"
+#include "../LeftistHeap.h"
+#include "../SkewHeap.h"
+#include "../LeftistHeap_Good.h"
 #include "heap_test.h"
+
 
 #include <vector>
 
@@ -29,7 +33,7 @@ void manual_test() {
 }
 
 template <typename HeapType>
-void stress_test(int iteration = 1000) {
+void easy_stress_test(int iteration = 1000) {
     HeapType heap;
     SimpleHeap simple_heap;
     for (int i = 0; i < iteration; ++i) {
@@ -63,34 +67,71 @@ void Add_Heap(int key, std::vector<HeapType*> & heaps) {
 
 
 
+class HeapTestStress : public ::testing::Test {
+protected:
+    virtual void SetUp() override {
+        test = HeapTest(1'000'000, INT_MAX);
+        answers = test.apply<SimpleHeap>();
+    }
 
+    HeapTest test;
+    std::vector<int> answers;
+};
 
-
-
-
-
-
-TEST(BinomialHeapTests, manual_test_1) {
-    manual_test<BinomialHeap>();
+void check_answers(const std::vector<int> & ans_check, const std::vector<int> & real_ans) {
+    ASSERT_EQ(ans_check.size(), real_ans.size());
+    for (int i = 0; i < ans_check.size(); ++i) {
+        EXPECT_EQ(ans_check[i], real_ans[i]);
+    }
 }
 
-TEST(SimpleHeapTests, manual_test_1) {
+
+TEST(HeapTestManual, simple_heap) {
     manual_test<SimpleHeap>();
 }
 
-
-TEST(BinomialHeapTests, stress_test) {
-    stress_test<BinomialHeap>(1'000'000);
+TEST(HeapTestManual, binomial_heap) {
+    manual_test<BinomialHeap>();
 }
 
-TEST(BinomialHeapTests, the_great_test_ever) {
-    HeapTest tst = HeapTest(1'000'000, 2'000'000'000);
-    std::vector<int> ans1 = tst.apply<BinomialHeap>();
-    std::vector<int> ans2 = tst.apply<SimpleHeap>();
-    ASSERT_EQ(ans1.size(), ans2.size());
-    for (int i = 0; i < ans1.size(); ++i) {
-        EXPECT_EQ(ans1[i], ans2[i]);
-    }
+TEST(HeapTestManual, leftist_heap) {
+    manual_test<LeftistHeap>();
+}
+
+TEST(HeapTestManual, skew_heap) {
+    manual_test<SkewHeap>();
+}
+
+TEST(HeapTestEasy, binomial_heap) {
+    easy_stress_test<BinomialHeap>(1'000'000);
+}
+
+TEST(HeapTestEasy, leftist_heap) {
+    easy_stress_test<LeftistHeap>(1'000'000);
+}
+
+TEST(HeapTestEasy, skew_heap) {
+    easy_stress_test<SkewHeap>(1'000'000);
+}
+
+TEST_F(HeapTestStress, binomial_heap) {
+    std::vector<int> ans_check = test.apply<BinomialHeap>();
+    check_answers(ans_check, answers);
+}
+
+TEST_F(HeapTestStress, leftist_heap) {
+    std::vector<int> ans_check = test.apply<LeftistHeap>();
+    check_answers(ans_check, answers);
+}
+
+TEST_F(HeapTestStress, simple_heap) {
+    std::vector<int> ans_check = test.apply<SimpleHeap>();
+    check_answers(ans_check, answers);
+}
+
+TEST_F(HeapTestStress, skew_heap) {
+    std::vector<int> ans_check = test.apply<SkewHeap>();
+    check_answers(ans_check, answers);
 }
 
 

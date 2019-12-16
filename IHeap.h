@@ -10,6 +10,7 @@ public:
     virtual void insert(int) = 0;
     virtual int get_min() = 0;
     virtual int extract_min() = 0;
+    //virtual void meld (IHeap &) = 0;
 };
 
 #endif //HEAPS_IHEAP_H
