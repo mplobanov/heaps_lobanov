@@ -171,6 +171,627 @@ Google_Tests_run/fast:
 	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/build
 .PHONY : Google_Tests_run/fast
 
+__/binomial_heap/assignment_operator.o: __/binomial_heap/assignment_operator.cpp.o
+
+.PHONY : __/binomial_heap/assignment_operator.o
+
+# target to build an object file
+__/binomial_heap/assignment_operator.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/assignment_operator.cpp.o
+.PHONY : __/binomial_heap/assignment_operator.cpp.o
+
+__/binomial_heap/assignment_operator.i: __/binomial_heap/assignment_operator.cpp.i
+
+.PHONY : __/binomial_heap/assignment_operator.i
+
+# target to preprocess a source file
+__/binomial_heap/assignment_operator.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/assignment_operator.cpp.i
+.PHONY : __/binomial_heap/assignment_operator.cpp.i
+
+__/binomial_heap/assignment_operator.s: __/binomial_heap/assignment_operator.cpp.s
+
+.PHONY : __/binomial_heap/assignment_operator.s
+
+# target to generate assembly for a file
+__/binomial_heap/assignment_operator.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/assignment_operator.cpp.s
+.PHONY : __/binomial_heap/assignment_operator.cpp.s
+
+__/binomial_heap/binomial_tree/assignment_operator.o: __/binomial_heap/binomial_tree/assignment_operator.cpp.o
+
+.PHONY : __/binomial_heap/binomial_tree/assignment_operator.o
+
+# target to build an object file
+__/binomial_heap/binomial_tree/assignment_operator.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/assignment_operator.cpp.o
+.PHONY : __/binomial_heap/binomial_tree/assignment_operator.cpp.o
+
+__/binomial_heap/binomial_tree/assignment_operator.i: __/binomial_heap/binomial_tree/assignment_operator.cpp.i
+
+.PHONY : __/binomial_heap/binomial_tree/assignment_operator.i
+
+# target to preprocess a source file
+__/binomial_heap/binomial_tree/assignment_operator.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/assignment_operator.cpp.i
+.PHONY : __/binomial_heap/binomial_tree/assignment_operator.cpp.i
+
+__/binomial_heap/binomial_tree/assignment_operator.s: __/binomial_heap/binomial_tree/assignment_operator.cpp.s
+
+.PHONY : __/binomial_heap/binomial_tree/assignment_operator.s
+
+# target to generate assembly for a file
+__/binomial_heap/binomial_tree/assignment_operator.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/assignment_operator.cpp.s
+.PHONY : __/binomial_heap/binomial_tree/assignment_operator.cpp.s
+
+__/binomial_heap/binomial_tree/copy_constructor.o: __/binomial_heap/binomial_tree/copy_constructor.cpp.o
+
+.PHONY : __/binomial_heap/binomial_tree/copy_constructor.o
+
+# target to build an object file
+__/binomial_heap/binomial_tree/copy_constructor.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/copy_constructor.cpp.o
+.PHONY : __/binomial_heap/binomial_tree/copy_constructor.cpp.o
+
+__/binomial_heap/binomial_tree/copy_constructor.i: __/binomial_heap/binomial_tree/copy_constructor.cpp.i
+
+.PHONY : __/binomial_heap/binomial_tree/copy_constructor.i
+
+# target to preprocess a source file
+__/binomial_heap/binomial_tree/copy_constructor.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/copy_constructor.cpp.i
+.PHONY : __/binomial_heap/binomial_tree/copy_constructor.cpp.i
+
+__/binomial_heap/binomial_tree/copy_constructor.s: __/binomial_heap/binomial_tree/copy_constructor.cpp.s
+
+.PHONY : __/binomial_heap/binomial_tree/copy_constructor.s
+
+# target to generate assembly for a file
+__/binomial_heap/binomial_tree/copy_constructor.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/copy_constructor.cpp.s
+.PHONY : __/binomial_heap/binomial_tree/copy_constructor.cpp.s
+
+__/binomial_heap/binomial_tree/destructor.o: __/binomial_heap/binomial_tree/destructor.cpp.o
+
+.PHONY : __/binomial_heap/binomial_tree/destructor.o
+
+# target to build an object file
+__/binomial_heap/binomial_tree/destructor.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/destructor.cpp.o
+.PHONY : __/binomial_heap/binomial_tree/destructor.cpp.o
+
+__/binomial_heap/binomial_tree/destructor.i: __/binomial_heap/binomial_tree/destructor.cpp.i
+
+.PHONY : __/binomial_heap/binomial_tree/destructor.i
+
+# target to preprocess a source file
+__/binomial_heap/binomial_tree/destructor.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/destructor.cpp.i
+.PHONY : __/binomial_heap/binomial_tree/destructor.cpp.i
+
+__/binomial_heap/binomial_tree/destructor.s: __/binomial_heap/binomial_tree/destructor.cpp.s
+
+.PHONY : __/binomial_heap/binomial_tree/destructor.s
+
+# target to generate assembly for a file
+__/binomial_heap/binomial_tree/destructor.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/destructor.cpp.s
+.PHONY : __/binomial_heap/binomial_tree/destructor.cpp.s
+
+__/binomial_heap/binomial_tree/log.o: __/binomial_heap/binomial_tree/log.cpp.o
+
+.PHONY : __/binomial_heap/binomial_tree/log.o
+
+# target to build an object file
+__/binomial_heap/binomial_tree/log.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/log.cpp.o
+.PHONY : __/binomial_heap/binomial_tree/log.cpp.o
+
+__/binomial_heap/binomial_tree/log.i: __/binomial_heap/binomial_tree/log.cpp.i
+
+.PHONY : __/binomial_heap/binomial_tree/log.i
+
+# target to preprocess a source file
+__/binomial_heap/binomial_tree/log.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/log.cpp.i
+.PHONY : __/binomial_heap/binomial_tree/log.cpp.i
+
+__/binomial_heap/binomial_tree/log.s: __/binomial_heap/binomial_tree/log.cpp.s
+
+.PHONY : __/binomial_heap/binomial_tree/log.s
+
+# target to generate assembly for a file
+__/binomial_heap/binomial_tree/log.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/log.cpp.s
+.PHONY : __/binomial_heap/binomial_tree/log.cpp.s
+
+__/binomial_heap/binomial_tree/unite.o: __/binomial_heap/binomial_tree/unite.cpp.o
+
+.PHONY : __/binomial_heap/binomial_tree/unite.o
+
+# target to build an object file
+__/binomial_heap/binomial_tree/unite.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/unite.cpp.o
+.PHONY : __/binomial_heap/binomial_tree/unite.cpp.o
+
+__/binomial_heap/binomial_tree/unite.i: __/binomial_heap/binomial_tree/unite.cpp.i
+
+.PHONY : __/binomial_heap/binomial_tree/unite.i
+
+# target to preprocess a source file
+__/binomial_heap/binomial_tree/unite.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/unite.cpp.i
+.PHONY : __/binomial_heap/binomial_tree/unite.cpp.i
+
+__/binomial_heap/binomial_tree/unite.s: __/binomial_heap/binomial_tree/unite.cpp.s
+
+.PHONY : __/binomial_heap/binomial_tree/unite.s
+
+# target to generate assembly for a file
+__/binomial_heap/binomial_tree/unite.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/binomial_tree/unite.cpp.s
+.PHONY : __/binomial_heap/binomial_tree/unite.cpp.s
+
+__/binomial_heap/copy_constructor.o: __/binomial_heap/copy_constructor.cpp.o
+
+.PHONY : __/binomial_heap/copy_constructor.o
+
+# target to build an object file
+__/binomial_heap/copy_constructor.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/copy_constructor.cpp.o
+.PHONY : __/binomial_heap/copy_constructor.cpp.o
+
+__/binomial_heap/copy_constructor.i: __/binomial_heap/copy_constructor.cpp.i
+
+.PHONY : __/binomial_heap/copy_constructor.i
+
+# target to preprocess a source file
+__/binomial_heap/copy_constructor.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/copy_constructor.cpp.i
+.PHONY : __/binomial_heap/copy_constructor.cpp.i
+
+__/binomial_heap/copy_constructor.s: __/binomial_heap/copy_constructor.cpp.s
+
+.PHONY : __/binomial_heap/copy_constructor.s
+
+# target to generate assembly for a file
+__/binomial_heap/copy_constructor.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/copy_constructor.cpp.s
+.PHONY : __/binomial_heap/copy_constructor.cpp.s
+
+__/binomial_heap/extract_min.o: __/binomial_heap/extract_min.cpp.o
+
+.PHONY : __/binomial_heap/extract_min.o
+
+# target to build an object file
+__/binomial_heap/extract_min.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/extract_min.cpp.o
+.PHONY : __/binomial_heap/extract_min.cpp.o
+
+__/binomial_heap/extract_min.i: __/binomial_heap/extract_min.cpp.i
+
+.PHONY : __/binomial_heap/extract_min.i
+
+# target to preprocess a source file
+__/binomial_heap/extract_min.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/extract_min.cpp.i
+.PHONY : __/binomial_heap/extract_min.cpp.i
+
+__/binomial_heap/extract_min.s: __/binomial_heap/extract_min.cpp.s
+
+.PHONY : __/binomial_heap/extract_min.s
+
+# target to generate assembly for a file
+__/binomial_heap/extract_min.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/extract_min.cpp.s
+.PHONY : __/binomial_heap/extract_min.cpp.s
+
+__/binomial_heap/get_min.o: __/binomial_heap/get_min.cpp.o
+
+.PHONY : __/binomial_heap/get_min.o
+
+# target to build an object file
+__/binomial_heap/get_min.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/get_min.cpp.o
+.PHONY : __/binomial_heap/get_min.cpp.o
+
+__/binomial_heap/get_min.i: __/binomial_heap/get_min.cpp.i
+
+.PHONY : __/binomial_heap/get_min.i
+
+# target to preprocess a source file
+__/binomial_heap/get_min.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/get_min.cpp.i
+.PHONY : __/binomial_heap/get_min.cpp.i
+
+__/binomial_heap/get_min.s: __/binomial_heap/get_min.cpp.s
+
+.PHONY : __/binomial_heap/get_min.s
+
+# target to generate assembly for a file
+__/binomial_heap/get_min.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/get_min.cpp.s
+.PHONY : __/binomial_heap/get_min.cpp.s
+
+__/binomial_heap/heap_constructor_from_tree.o: __/binomial_heap/heap_constructor_from_tree.cpp.o
+
+.PHONY : __/binomial_heap/heap_constructor_from_tree.o
+
+# target to build an object file
+__/binomial_heap/heap_constructor_from_tree.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/heap_constructor_from_tree.cpp.o
+.PHONY : __/binomial_heap/heap_constructor_from_tree.cpp.o
+
+__/binomial_heap/heap_constructor_from_tree.i: __/binomial_heap/heap_constructor_from_tree.cpp.i
+
+.PHONY : __/binomial_heap/heap_constructor_from_tree.i
+
+# target to preprocess a source file
+__/binomial_heap/heap_constructor_from_tree.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/heap_constructor_from_tree.cpp.i
+.PHONY : __/binomial_heap/heap_constructor_from_tree.cpp.i
+
+__/binomial_heap/heap_constructor_from_tree.s: __/binomial_heap/heap_constructor_from_tree.cpp.s
+
+.PHONY : __/binomial_heap/heap_constructor_from_tree.s
+
+# target to generate assembly for a file
+__/binomial_heap/heap_constructor_from_tree.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/heap_constructor_from_tree.cpp.s
+.PHONY : __/binomial_heap/heap_constructor_from_tree.cpp.s
+
+__/binomial_heap/insert.o: __/binomial_heap/insert.cpp.o
+
+.PHONY : __/binomial_heap/insert.o
+
+# target to build an object file
+__/binomial_heap/insert.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/insert.cpp.o
+.PHONY : __/binomial_heap/insert.cpp.o
+
+__/binomial_heap/insert.i: __/binomial_heap/insert.cpp.i
+
+.PHONY : __/binomial_heap/insert.i
+
+# target to preprocess a source file
+__/binomial_heap/insert.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/insert.cpp.i
+.PHONY : __/binomial_heap/insert.cpp.i
+
+__/binomial_heap/insert.s: __/binomial_heap/insert.cpp.s
+
+.PHONY : __/binomial_heap/insert.s
+
+# target to generate assembly for a file
+__/binomial_heap/insert.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/insert.cpp.s
+.PHONY : __/binomial_heap/insert.cpp.s
+
+__/binomial_heap/log.o: __/binomial_heap/log.cpp.o
+
+.PHONY : __/binomial_heap/log.o
+
+# target to build an object file
+__/binomial_heap/log.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/log.cpp.o
+.PHONY : __/binomial_heap/log.cpp.o
+
+__/binomial_heap/log.i: __/binomial_heap/log.cpp.i
+
+.PHONY : __/binomial_heap/log.i
+
+# target to preprocess a source file
+__/binomial_heap/log.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/log.cpp.i
+.PHONY : __/binomial_heap/log.cpp.i
+
+__/binomial_heap/log.s: __/binomial_heap/log.cpp.s
+
+.PHONY : __/binomial_heap/log.s
+
+# target to generate assembly for a file
+__/binomial_heap/log.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/log.cpp.s
+.PHONY : __/binomial_heap/log.cpp.s
+
+__/binomial_heap/meld.o: __/binomial_heap/meld.cpp.o
+
+.PHONY : __/binomial_heap/meld.o
+
+# target to build an object file
+__/binomial_heap/meld.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/meld.cpp.o
+.PHONY : __/binomial_heap/meld.cpp.o
+
+__/binomial_heap/meld.i: __/binomial_heap/meld.cpp.i
+
+.PHONY : __/binomial_heap/meld.i
+
+# target to preprocess a source file
+__/binomial_heap/meld.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/meld.cpp.i
+.PHONY : __/binomial_heap/meld.cpp.i
+
+__/binomial_heap/meld.s: __/binomial_heap/meld.cpp.s
+
+.PHONY : __/binomial_heap/meld.s
+
+# target to generate assembly for a file
+__/binomial_heap/meld.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/meld.cpp.s
+.PHONY : __/binomial_heap/meld.cpp.s
+
+__/binomial_heap/meld_tree.o: __/binomial_heap/meld_tree.cpp.o
+
+.PHONY : __/binomial_heap/meld_tree.o
+
+# target to build an object file
+__/binomial_heap/meld_tree.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/meld_tree.cpp.o
+.PHONY : __/binomial_heap/meld_tree.cpp.o
+
+__/binomial_heap/meld_tree.i: __/binomial_heap/meld_tree.cpp.i
+
+.PHONY : __/binomial_heap/meld_tree.i
+
+# target to preprocess a source file
+__/binomial_heap/meld_tree.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/meld_tree.cpp.i
+.PHONY : __/binomial_heap/meld_tree.cpp.i
+
+__/binomial_heap/meld_tree.s: __/binomial_heap/meld_tree.cpp.s
+
+.PHONY : __/binomial_heap/meld_tree.s
+
+# target to generate assembly for a file
+__/binomial_heap/meld_tree.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/binomial_heap/meld_tree.cpp.s
+.PHONY : __/binomial_heap/meld_tree.cpp.s
+
+__/leftist_heap/constructors.o: __/leftist_heap/constructors.cpp.o
+
+.PHONY : __/leftist_heap/constructors.o
+
+# target to build an object file
+__/leftist_heap/constructors.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/leftist_heap/constructors.cpp.o
+.PHONY : __/leftist_heap/constructors.cpp.o
+
+__/leftist_heap/constructors.i: __/leftist_heap/constructors.cpp.i
+
+.PHONY : __/leftist_heap/constructors.i
+
+# target to preprocess a source file
+__/leftist_heap/constructors.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/leftist_heap/constructors.cpp.i
+.PHONY : __/leftist_heap/constructors.cpp.i
+
+__/leftist_heap/constructors.s: __/leftist_heap/constructors.cpp.s
+
+.PHONY : __/leftist_heap/constructors.s
+
+# target to generate assembly for a file
+__/leftist_heap/constructors.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/leftist_heap/constructors.cpp.s
+.PHONY : __/leftist_heap/constructors.cpp.s
+
+__/leftist_heap/meld.o: __/leftist_heap/meld.cpp.o
+
+.PHONY : __/leftist_heap/meld.o
+
+# target to build an object file
+__/leftist_heap/meld.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/leftist_heap/meld.cpp.o
+.PHONY : __/leftist_heap/meld.cpp.o
+
+__/leftist_heap/meld.i: __/leftist_heap/meld.cpp.i
+
+.PHONY : __/leftist_heap/meld.i
+
+# target to preprocess a source file
+__/leftist_heap/meld.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/leftist_heap/meld.cpp.i
+.PHONY : __/leftist_heap/meld.cpp.i
+
+__/leftist_heap/meld.s: __/leftist_heap/meld.cpp.s
+
+.PHONY : __/leftist_heap/meld.s
+
+# target to generate assembly for a file
+__/leftist_heap/meld.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/leftist_heap/meld.cpp.s
+.PHONY : __/leftist_heap/meld.cpp.s
+
+__/leftist_heap/rank_refresh.o: __/leftist_heap/rank_refresh.cpp.o
+
+.PHONY : __/leftist_heap/rank_refresh.o
+
+# target to build an object file
+__/leftist_heap/rank_refresh.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/leftist_heap/rank_refresh.cpp.o
+.PHONY : __/leftist_heap/rank_refresh.cpp.o
+
+__/leftist_heap/rank_refresh.i: __/leftist_heap/rank_refresh.cpp.i
+
+.PHONY : __/leftist_heap/rank_refresh.i
+
+# target to preprocess a source file
+__/leftist_heap/rank_refresh.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/leftist_heap/rank_refresh.cpp.i
+.PHONY : __/leftist_heap/rank_refresh.cpp.i
+
+__/leftist_heap/rank_refresh.s: __/leftist_heap/rank_refresh.cpp.s
+
+.PHONY : __/leftist_heap/rank_refresh.s
+
+# target to generate assembly for a file
+__/leftist_heap/rank_refresh.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/leftist_heap/rank_refresh.cpp.s
+.PHONY : __/leftist_heap/rank_refresh.cpp.s
+
+__/meta_heap/copy_constructor.o: __/meta_heap/copy_constructor.cpp.o
+
+.PHONY : __/meta_heap/copy_constructor.o
+
+# target to build an object file
+__/meta_heap/copy_constructor.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/meta_heap/copy_constructor.cpp.o
+.PHONY : __/meta_heap/copy_constructor.cpp.o
+
+__/meta_heap/copy_constructor.i: __/meta_heap/copy_constructor.cpp.i
+
+.PHONY : __/meta_heap/copy_constructor.i
+
+# target to preprocess a source file
+__/meta_heap/copy_constructor.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/meta_heap/copy_constructor.cpp.i
+.PHONY : __/meta_heap/copy_constructor.cpp.i
+
+__/meta_heap/copy_constructor.s: __/meta_heap/copy_constructor.cpp.s
+
+.PHONY : __/meta_heap/copy_constructor.s
+
+# target to generate assembly for a file
+__/meta_heap/copy_constructor.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/meta_heap/copy_constructor.cpp.s
+.PHONY : __/meta_heap/copy_constructor.cpp.s
+
+__/meta_heap/extract_min.o: __/meta_heap/extract_min.cpp.o
+
+.PHONY : __/meta_heap/extract_min.o
+
+# target to build an object file
+__/meta_heap/extract_min.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/meta_heap/extract_min.cpp.o
+.PHONY : __/meta_heap/extract_min.cpp.o
+
+__/meta_heap/extract_min.i: __/meta_heap/extract_min.cpp.i
+
+.PHONY : __/meta_heap/extract_min.i
+
+# target to preprocess a source file
+__/meta_heap/extract_min.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/meta_heap/extract_min.cpp.i
+.PHONY : __/meta_heap/extract_min.cpp.i
+
+__/meta_heap/extract_min.s: __/meta_heap/extract_min.cpp.s
+
+.PHONY : __/meta_heap/extract_min.s
+
+# target to generate assembly for a file
+__/meta_heap/extract_min.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/meta_heap/extract_min.cpp.s
+.PHONY : __/meta_heap/extract_min.cpp.s
+
+__/meta_heap/swap.o: __/meta_heap/swap.cpp.o
+
+.PHONY : __/meta_heap/swap.o
+
+# target to build an object file
+__/meta_heap/swap.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/meta_heap/swap.cpp.o
+.PHONY : __/meta_heap/swap.cpp.o
+
+__/meta_heap/swap.i: __/meta_heap/swap.cpp.i
+
+.PHONY : __/meta_heap/swap.i
+
+# target to preprocess a source file
+__/meta_heap/swap.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/meta_heap/swap.cpp.i
+.PHONY : __/meta_heap/swap.cpp.i
+
+__/meta_heap/swap.s: __/meta_heap/swap.cpp.s
+
+.PHONY : __/meta_heap/swap.s
+
+# target to generate assembly for a file
+__/meta_heap/swap.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/meta_heap/swap.cpp.s
+.PHONY : __/meta_heap/swap.cpp.s
+
+__/skew_heap/meld.o: __/skew_heap/meld.cpp.o
+
+.PHONY : __/skew_heap/meld.o
+
+# target to build an object file
+__/skew_heap/meld.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/skew_heap/meld.cpp.o
+.PHONY : __/skew_heap/meld.cpp.o
+
+__/skew_heap/meld.i: __/skew_heap/meld.cpp.i
+
+.PHONY : __/skew_heap/meld.i
+
+# target to preprocess a source file
+__/skew_heap/meld.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/skew_heap/meld.cpp.i
+.PHONY : __/skew_heap/meld.cpp.i
+
+__/skew_heap/meld.s: __/skew_heap/meld.cpp.s
+
+.PHONY : __/skew_heap/meld.s
+
+# target to generate assembly for a file
+__/skew_heap/meld.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/__/skew_heap/meld.cpp.s
+.PHONY : __/skew_heap/meld.cpp.s
+
+add_operation.o: add_operation.cpp.o
+
+.PHONY : add_operation.o
+
+# target to build an object file
+add_operation.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/add_operation.cpp.o
+.PHONY : add_operation.cpp.o
+
+add_operation.i: add_operation.cpp.i
+
+.PHONY : add_operation.i
+
+# target to preprocess a source file
+add_operation.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/add_operation.cpp.i
+.PHONY : add_operation.cpp.i
+
+add_operation.s: add_operation.cpp.s
+
+.PHONY : add_operation.s
+
+# target to generate assembly for a file
+add_operation.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/add_operation.cpp.s
+.PHONY : add_operation.cpp.s
+
+random_operation_type.o: random_operation_type.cpp.o
+
+.PHONY : random_operation_type.o
+
+# target to build an object file
+random_operation_type.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/random_operation_type.cpp.o
+.PHONY : random_operation_type.cpp.o
+
+random_operation_type.i: random_operation_type.cpp.i
+
+.PHONY : random_operation_type.i
+
+# target to preprocess a source file
+random_operation_type.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/random_operation_type.cpp.i
+.PHONY : random_operation_type.cpp.i
+
+random_operation_type.s: random_operation_type.cpp.s
+
+.PHONY : random_operation_type.s
+
+# target to generate assembly for a file
+random_operation_type.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/random_operation_type.cpp.s
+.PHONY : random_operation_type.cpp.s
+
 test1.o: test1.cpp.o
 
 .PHONY : test1.o
@@ -198,6 +819,33 @@ test1.cpp.s:
 	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.s
 .PHONY : test1.cpp.s
 
+test_constructor.o: test_constructor.cpp.o
+
+.PHONY : test_constructor.o
+
+# target to build an object file
+test_constructor.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/test_constructor.cpp.o
+.PHONY : test_constructor.cpp.o
+
+test_constructor.i: test_constructor.cpp.i
+
+.PHONY : test_constructor.i
+
+# target to preprocess a source file
+test_constructor.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/test_constructor.cpp.i
+.PHONY : test_constructor.cpp.i
+
+test_constructor.s: test_constructor.cpp.s
+
+.PHONY : test_constructor.s
+
+# target to generate assembly for a file
+test_constructor.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/test_constructor.cpp.s
+.PHONY : test_constructor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,9 +859,81 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Google_Tests_run"
+	@echo "... __/binomial_heap/assignment_operator.o"
+	@echo "... __/binomial_heap/assignment_operator.i"
+	@echo "... __/binomial_heap/assignment_operator.s"
+	@echo "... __/binomial_heap/binomial_tree/assignment_operator.o"
+	@echo "... __/binomial_heap/binomial_tree/assignment_operator.i"
+	@echo "... __/binomial_heap/binomial_tree/assignment_operator.s"
+	@echo "... __/binomial_heap/binomial_tree/copy_constructor.o"
+	@echo "... __/binomial_heap/binomial_tree/copy_constructor.i"
+	@echo "... __/binomial_heap/binomial_tree/copy_constructor.s"
+	@echo "... __/binomial_heap/binomial_tree/destructor.o"
+	@echo "... __/binomial_heap/binomial_tree/destructor.i"
+	@echo "... __/binomial_heap/binomial_tree/destructor.s"
+	@echo "... __/binomial_heap/binomial_tree/log.o"
+	@echo "... __/binomial_heap/binomial_tree/log.i"
+	@echo "... __/binomial_heap/binomial_tree/log.s"
+	@echo "... __/binomial_heap/binomial_tree/unite.o"
+	@echo "... __/binomial_heap/binomial_tree/unite.i"
+	@echo "... __/binomial_heap/binomial_tree/unite.s"
+	@echo "... __/binomial_heap/copy_constructor.o"
+	@echo "... __/binomial_heap/copy_constructor.i"
+	@echo "... __/binomial_heap/copy_constructor.s"
+	@echo "... __/binomial_heap/extract_min.o"
+	@echo "... __/binomial_heap/extract_min.i"
+	@echo "... __/binomial_heap/extract_min.s"
+	@echo "... __/binomial_heap/get_min.o"
+	@echo "... __/binomial_heap/get_min.i"
+	@echo "... __/binomial_heap/get_min.s"
+	@echo "... __/binomial_heap/heap_constructor_from_tree.o"
+	@echo "... __/binomial_heap/heap_constructor_from_tree.i"
+	@echo "... __/binomial_heap/heap_constructor_from_tree.s"
+	@echo "... __/binomial_heap/insert.o"
+	@echo "... __/binomial_heap/insert.i"
+	@echo "... __/binomial_heap/insert.s"
+	@echo "... __/binomial_heap/log.o"
+	@echo "... __/binomial_heap/log.i"
+	@echo "... __/binomial_heap/log.s"
+	@echo "... __/binomial_heap/meld.o"
+	@echo "... __/binomial_heap/meld.i"
+	@echo "... __/binomial_heap/meld.s"
+	@echo "... __/binomial_heap/meld_tree.o"
+	@echo "... __/binomial_heap/meld_tree.i"
+	@echo "... __/binomial_heap/meld_tree.s"
+	@echo "... __/leftist_heap/constructors.o"
+	@echo "... __/leftist_heap/constructors.i"
+	@echo "... __/leftist_heap/constructors.s"
+	@echo "... __/leftist_heap/meld.o"
+	@echo "... __/leftist_heap/meld.i"
+	@echo "... __/leftist_heap/meld.s"
+	@echo "... __/leftist_heap/rank_refresh.o"
+	@echo "... __/leftist_heap/rank_refresh.i"
+	@echo "... __/leftist_heap/rank_refresh.s"
+	@echo "... __/meta_heap/copy_constructor.o"
+	@echo "... __/meta_heap/copy_constructor.i"
+	@echo "... __/meta_heap/copy_constructor.s"
+	@echo "... __/meta_heap/extract_min.o"
+	@echo "... __/meta_heap/extract_min.i"
+	@echo "... __/meta_heap/extract_min.s"
+	@echo "... __/meta_heap/swap.o"
+	@echo "... __/meta_heap/swap.i"
+	@echo "... __/meta_heap/swap.s"
+	@echo "... __/skew_heap/meld.o"
+	@echo "... __/skew_heap/meld.i"
+	@echo "... __/skew_heap/meld.s"
+	@echo "... add_operation.o"
+	@echo "... add_operation.i"
+	@echo "... add_operation.s"
+	@echo "... random_operation_type.o"
+	@echo "... random_operation_type.i"
+	@echo "... random_operation_type.s"
 	@echo "... test1.o"
 	@echo "... test1.i"
 	@echo "... test1.s"
+	@echo "... test_constructor.o"
+	@echo "... test_constructor.i"
+	@echo "... test_constructor.s"
 .PHONY : help
 
 

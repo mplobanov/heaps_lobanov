@@ -3,6 +3,7 @@
 
 CMakeFiles/heaps.dir/main.cpp.o: ../BinominalHeap.h
 CMakeFiles/heaps.dir/main.cpp.o: ../IHeap.h
-CMakeFiles/heaps.dir/main.cpp.o: ../LeftistHeap.h
+CMakeFiles/heaps.dir/main.cpp.o: ../LeftistHeap_Good.h
 CMakeFiles/heaps.dir/main.cpp.o: ../main.cpp
+CMakeFiles/heaps.dir/main.cpp.o: ../metaheap.h
 

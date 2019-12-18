@@ -1,7 +1,7 @@
-#include "BinominalHeap.h"
+#include "binomial_heap/BinominalHeap.h"
 
 #include <iostream>
-#include "LeftistHeap.h"
+#include "leftist_heap/LeftistHeap.h"
 
 using namespace std;
 

@@ -18,15 +18,23 @@ list
 
 /Users/mplobanov/CLionProjects/heaps/IHeap.h
 
-/Users/mplobanov/CLionProjects/heaps/LeftistHeap.h
-IHeap.h
-/Users/mplobanov/CLionProjects/heaps/IHeap.h
+/Users/mplobanov/CLionProjects/heaps/LeftistHeap_Good.h
+metaheap.h
+/Users/mplobanov/CLionProjects/heaps/metaheap.h
 
 /Users/mplobanov/CLionProjects/heaps/main.cpp
 BinominalHeap.h
 /Users/mplobanov/CLionProjects/heaps/BinominalHeap.h
 iostream
 -
-LeftistHeap.h
-/Users/mplobanov/CLionProjects/heaps/LeftistHeap.h
+LeftistHeap_Good.h
+/Users/mplobanov/CLionProjects/heaps/LeftistHeap_Good.h
+
+/Users/mplobanov/CLionProjects/heaps/metaheap.h
+typeinfo
+-
+iostream
+-
+IHeap.h
+/Users/mplobanov/CLionProjects/heaps/IHeap.h
 

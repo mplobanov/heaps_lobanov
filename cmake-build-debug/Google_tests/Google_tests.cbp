@@ -256,6 +256,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/Google_tests/add_operation.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/Google_tests/lib/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
@@ -268,7 +271,76 @@
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/Google_tests/lib/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/Google_tests/random_operation_type.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/Google_tests/test1.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/Google_tests/test_constructor.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/assignment_operator.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/assignment_operator.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/copy_constructor.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/destructor.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/log.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/unite.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/copy_constructor.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/extract_min.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/get_min.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/heap_constructor_from_tree.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/insert.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/log.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/meld.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/meld_tree.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/leftist_heap/constructors.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/leftist_heap/meld.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/leftist_heap/rank_refresh.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/meta_heap/copy_constructor.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/meta_heap/extract_min.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/meta_heap/swap.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/skew_heap/meld.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/CMakeLists.txt">
