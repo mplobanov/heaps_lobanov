@@ -10,8 +10,8 @@
 #include "special_test.h" // Special Tests
 
 
-int TEST_SIZE = 100'000; // not the exact amount of operations, but approximate
-int MAXIMUM_INT = 2'000; // long and strange name in order not to confuse with INT_MAX constants
+int TEST_SIZE = 3; // not the exact amount of operations, but approximate
+int MAXIMUM_INT = 10; // long and strange name in order not to confuse with INT_MAX constants
 
 
 class HeapTest_RandomStress : public ::testing::Test {
@@ -40,6 +40,7 @@ class BigMeldTest : public ::testing::Test {
 protected:
     virtual void SetUp() override {
         test = bigmeld_test(TEST_SIZE, MAXIMUM_INT);
+        std::cout << test.toString() << std::endl;
         answers = test.apply<SimpleHeap>();
     }
 

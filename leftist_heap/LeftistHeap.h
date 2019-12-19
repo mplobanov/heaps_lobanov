@@ -30,6 +30,11 @@ public:
         auto new_heap = new LeftistHeap(key);
         meld(*new_heap);
     }
+
+    ~LeftistHeap() override {
+        delete _left;
+        delete _right;
+    }
 };
 
 

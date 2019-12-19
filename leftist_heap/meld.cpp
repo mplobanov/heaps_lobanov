@@ -4,25 +4,14 @@
 #include "LeftistHeap.h"
 
 void LeftistHeap::meld(MetaHeap &oth) {
-    auto other = dynamic_cast<LeftistHeap*>(&oth);
-    if (other->_is_empty)
-        return;
-    if (_is_empty) {
-        *this = *other;
-        return;
-    }
-    if (_key > other->_key)
-        _swap(*other);
-
-    if (_right == nullptr)
-        _right = other;
-    else
-        _right->meld(*other);
+    MetaHeap::meld(oth);
     _rank_refresh();
     if (_left == nullptr){
         std::swap(_left, _right);
         return;
     }
-    if ((dynamic_cast<LeftistHeap*>(_left)->_rank) < (dynamic_cast<LeftistHeap*>(_right)->_rank))
-        std::swap(_left, _right);
+    if(_right != nullptr){
+        if ((dynamic_cast<LeftistHeap*>(_left)->_rank) < (dynamic_cast<LeftistHeap*>(_right)->_rank))
+            std::swap(_left, _right);
+    }
 }

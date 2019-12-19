@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/mplobanov/CLionProjects/heaps/BinominalHeap.h
-IHeap.h
 /Users/mplobanov/CLionProjects/heaps/IHeap.h
+
+/Users/mplobanov/CLionProjects/heaps/binomial_heap/BinominalHeap.h
+../IHeap.h
+/Users/mplobanov/CLionProjects/heaps/IHeap.h
+binomial_tree/BinomialTree.h
+/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/BinomialTree.h
 vector
 -
 iostream
@@ -16,25 +20,15 @@ iostream
 list
 -
 
-/Users/mplobanov/CLionProjects/heaps/IHeap.h
-
-/Users/mplobanov/CLionProjects/heaps/LeftistHeap_Good.h
-metaheap.h
-/Users/mplobanov/CLionProjects/heaps/metaheap.h
+/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/BinomialTree.h
+list
+-
+iostream
+-
 
 /Users/mplobanov/CLionProjects/heaps/main.cpp
-BinominalHeap.h
-/Users/mplobanov/CLionProjects/heaps/BinominalHeap.h
+binomial_heap/BinominalHeap.h
+/Users/mplobanov/CLionProjects/heaps/binomial_heap/BinominalHeap.h
 iostream
 -
-LeftistHeap_Good.h
-/Users/mplobanov/CLionProjects/heaps/LeftistHeap_Good.h
-
-/Users/mplobanov/CLionProjects/heaps/metaheap.h
-typeinfo
--
-iostream
--
-IHeap.h
-/Users/mplobanov/CLionProjects/heaps/IHeap.h
 

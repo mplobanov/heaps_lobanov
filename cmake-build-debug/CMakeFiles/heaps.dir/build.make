@@ -70,17 +70,227 @@ CMakeFiles/heaps.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/main.cpp -o CMakeFiles/heaps.dir/main.cpp.s
 
+CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.o: ../binomial_heap/extract_min.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/extract_min.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/extract_min.cpp > CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/extract_min.cpp -o CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/log.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/log.cpp.o: ../binomial_heap/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/log.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/log.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/log.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/log.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/log.cpp > CMakeFiles/heaps.dir/binomial_heap/log.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/log.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/log.cpp -o CMakeFiles/heaps.dir/binomial_heap/log.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.o: ../binomial_heap/copy_constructor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/copy_constructor.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/copy_constructor.cpp > CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/copy_constructor.cpp -o CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.o: ../binomial_heap/assignment_operator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/assignment_operator.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/assignment_operator.cpp > CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/assignment_operator.cpp -o CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.o: ../binomial_heap/get_min.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/get_min.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/get_min.cpp > CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/get_min.cpp -o CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.o: ../binomial_heap/meld_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/meld_tree.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/meld_tree.cpp > CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/meld_tree.cpp -o CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/insert.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/insert.cpp.o: ../binomial_heap/insert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/insert.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/insert.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/insert.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/insert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/insert.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/insert.cpp > CMakeFiles/heaps.dir/binomial_heap/insert.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/insert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/insert.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/insert.cpp -o CMakeFiles/heaps.dir/binomial_heap/insert.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/meld.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/meld.cpp.o: ../binomial_heap/meld.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/meld.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/meld.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/meld.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/meld.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/meld.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/meld.cpp > CMakeFiles/heaps.dir/binomial_heap/meld.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/meld.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/meld.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/meld.cpp -o CMakeFiles/heaps.dir/binomial_heap/meld.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.o: ../binomial_heap/heap_constructor_from_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/heap_constructor_from_tree.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/heap_constructor_from_tree.cpp > CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/heap_constructor_from_tree.cpp -o CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.o: ../binomial_heap/binomial_tree/copy_constructor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/copy_constructor.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/copy_constructor.cpp > CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/copy_constructor.cpp -o CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.o: ../binomial_heap/binomial_tree/assignment_operator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/assignment_operator.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/assignment_operator.cpp > CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/assignment_operator.cpp -o CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.o: ../binomial_heap/binomial_tree/destructor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/destructor.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/destructor.cpp > CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/destructor.cpp -o CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.o: ../binomial_heap/binomial_tree/unite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/unite.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/unite.cpp > CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/unite.cpp -o CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.s
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.o: CMakeFiles/heaps.dir/flags.make
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.o: ../binomial_heap/binomial_tree/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.o -c /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/log.cpp
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/log.cpp > CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.i
+
+CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/log.cpp -o CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.s
+
 # Object files for target heaps
 heaps_OBJECTS = \
-"CMakeFiles/heaps.dir/main.cpp.o"
+"CMakeFiles/heaps.dir/main.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/log.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/insert.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/meld.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.o" \
+"CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.o"
 
 # External object files for target heaps
 heaps_EXTERNAL_OBJECTS =
 
 heaps: CMakeFiles/heaps.dir/main.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/log.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/insert.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/meld.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.o
+heaps: CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.o
 heaps: CMakeFiles/heaps.dir/build.make
 heaps: CMakeFiles/heaps.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable heaps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable heaps"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/heaps.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

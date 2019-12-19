@@ -40,7 +40,7 @@ public:
 
     void meld(BinomialHeap &other);
 
-    int extract_min() override;;
+    int extract_min() override;
 
 };
 

@@ -34,6 +34,8 @@ public:
     void meld (SimpleHeap & other) {
         _heap.merge(other._heap);
     }
+
+    ~SimpleHeap() = default;
 };
 
 #endif //HEAPS_SIMPLEHEAP_H

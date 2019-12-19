@@ -26,7 +26,21 @@ public:
 
     MetaHeap(const MetaHeap & other);
 
-    virtual void meld(MetaHeap & other) = 0;
+    virtual void meld(MetaHeap & other) {
+        if (other._is_empty)
+            return;
+        if (_is_empty) {
+            *this = other;
+            return;
+        }
+        if (_key > other._key)
+            _swap(other);
+
+        if (_right == nullptr)
+            _right = &other;
+        else
+            _right->meld(other);
+    };
 
     int get_min() override {
         return _key;
@@ -35,6 +49,8 @@ public:
     virtual void insert(int key) override = 0;
 
     int extract_min() override;
+
+    virtual ~MetaHeap() = default;
 
 
 };

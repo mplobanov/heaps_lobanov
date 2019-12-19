@@ -1,25 +1,32 @@
 #include "binomial_heap/BinominalHeap.h"
 
 #include <iostream>
-#include "leftist_heap/LeftistHeap.h"
 
 using namespace std;
 
 int main(){
     int x;
     cin >> x;
-    LeftistHeap hp;
+    int cnt1 = 0;
+    BinomialHeap hp1;
     while (x != 0) {
         if (x > 0)
-            hp.insert(x);
-        if (x == -1) {
-            cout << hp.get_min() << endl;
-        }
-        if (x == -2)
-        {
-            cout << hp.extract_min() << endl;
-        }
+            hp1.insert(x);
         cin >> x;
+        cnt1++;
+    }
+    BinomialHeap hp2;
+    int cnt2 = 0;
+    cin >> x;
+    while (x != 0) {
+        if (x > 0)
+            hp2.insert(x);
+        cin >> x;
+        cnt2++;
+    }
+    hp1.meld(hp2);
+    for (int i = 0; i < cnt1 + cnt2; ++i) {
+        cout << hp1.extract_min() << endl;
     }
     return 0;
 }

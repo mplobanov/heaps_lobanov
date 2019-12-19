@@ -383,45 +383,59 @@
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/assignment_operator.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/assignment_operator.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/copy_constructor.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/destructor.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/log.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/unite.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/copy_constructor.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/extract_min.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/get_min.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/heap_constructor_from_tree.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/insert.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/log.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/meld.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/binomial_heap/meld_tree.cpp">
+			<Option target="heaps"/>
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/leftist_heap/constructors.cpp">

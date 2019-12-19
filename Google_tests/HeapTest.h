@@ -19,7 +19,6 @@ public:
     std::vector<Operation*> _operations;
     std::vector<int> _heap_sizes;
     int _INT_MAX = 100;
-public:
     int operations_count(){
         return _operations.size();
     }

@@ -26,6 +26,11 @@ public:
         auto new_heap = new SkewHeap(key);
             meld(*new_heap);
     }
+
+    ~SkewHeap() override {
+        delete _left;
+        delete _right;
+    }
 };
 
 

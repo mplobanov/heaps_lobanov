@@ -6,6 +6,8 @@
 int BinomialHeap::extract_min() {
     int min_key = get_min();
     auto it = _roots.begin();
+    if (it == _roots.end())
+        return 0;
     while ((*it)->_key != min_key)
         ++it;
     _roots.erase(it);

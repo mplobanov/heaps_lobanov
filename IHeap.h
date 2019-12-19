@@ -11,6 +11,8 @@ public:
     virtual int get_min() = 0;
     virtual int extract_min() = 0;
     //virtual void meld (IHeap &) = 0;
+
+    virtual ~IHeap() = default;
 };
 
 #endif //HEAPS_IHEAP_H

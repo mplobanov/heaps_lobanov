@@ -76,12 +76,12 @@ preinstall: Google_tests/preinstall
 CMakeFiles/heaps.dir/all:
 	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/depend
 	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target heaps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target heaps"
 .PHONY : CMakeFiles/heaps.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/heaps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles 16
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/heaps.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/heaps.dir/rule
