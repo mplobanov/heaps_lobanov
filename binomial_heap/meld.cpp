@@ -22,8 +22,10 @@ void BinomialHeap::meld(BinomialHeap &other) {
             it_other++;
             continue;
         }
-        else if ((*it_other)->_degree < (*it_mine)->_degree)
+        else if ((*it_other)->_degree < (*it_mine)->_degree){
+            _roots.insert(it_mine, *it_other);
             it_other++;
+        }
         else if ((*it_other)->_degree > (*it_mine)->_degree)
             it_mine++;
     }

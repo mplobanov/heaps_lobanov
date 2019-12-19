@@ -34,6 +34,8 @@ HeapTest bigmeld_test(int approx_test_size, int mint) {
     test.add_operation(* new opers::AddHeap(rand() % mint));
     test.add_operation(* new opers::AddHeap(rand() % mint));
     for (int i = 0; i < approx_test_size; ++i) {
+//        test.add_operation(* new opers::Insert(0, gint(mint)));
+//        test.add_operation(* new opers::Insert(1, gint(mint)));
         test.add_operation(* new opers::AddHeap(gint(mint)));
         test.add_operation(* new opers::Meld(0, 2));
         test.add_operation(* new opers::GetMin(0));

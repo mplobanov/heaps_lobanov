@@ -26,9 +26,7 @@ list
 iostream
 -
 
-/Users/mplobanov/CLionProjects/heaps/main.cpp
-binomial_heap/BinominalHeap.h
+/Users/mplobanov/CLionProjects/heaps/binomial_heap/meld.cpp
+BinominalHeap.h
 /Users/mplobanov/CLionProjects/heaps/binomial_heap/BinominalHeap.h
-iostream
--
 

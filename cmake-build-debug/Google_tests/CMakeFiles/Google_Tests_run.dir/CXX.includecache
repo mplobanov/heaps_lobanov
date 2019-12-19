@@ -306,6 +306,22 @@ cxxabi.h
 acxx_demangle.h
 -
 
+/Users/mplobanov/CLionProjects/heaps/Google_tests/GOOGLE_TESTS.cpp
+HeapTest.h
+/Users/mplobanov/CLionProjects/heaps/Google_tests/HeapTest.h
+gtest/gtest.h
+/Users/mplobanov/CLionProjects/heaps/Google_tests/gtest/gtest.h
+../binomial_heap/BinominalHeap.h
+/Users/mplobanov/CLionProjects/heaps/binomial_heap/BinominalHeap.h
+../SimpleHeap.h
+/Users/mplobanov/CLionProjects/heaps/SimpleHeap.h
+../skew_heap/SkewHeap.h
+/Users/mplobanov/CLionProjects/heaps/skew_heap/SkewHeap.h
+../leftist_heap/LeftistHeap.h
+/Users/mplobanov/CLionProjects/heaps/leftist_heap/LeftistHeap.h
+special_test.h
+/Users/mplobanov/CLionProjects/heaps/Google_tests/special_test.h
+
 /Users/mplobanov/CLionProjects/heaps/Google_tests/HeapTest.h
 Operation.h
 /Users/mplobanov/CLionProjects/heaps/Google_tests/Operation.h
@@ -357,22 +373,6 @@ gtest/gtest_pred_impl.h
 /Users/mplobanov/CLionProjects/heaps/Google_tests/special_test.h
 HeapTest.h
 /Users/mplobanov/CLionProjects/heaps/Google_tests/HeapTest.h
-
-/Users/mplobanov/CLionProjects/heaps/Google_tests/test1.cpp
-HeapTest.h
-/Users/mplobanov/CLionProjects/heaps/Google_tests/HeapTest.h
-gtest/gtest.h
-/Users/mplobanov/CLionProjects/heaps/Google_tests/gtest/gtest.h
-../binomial_heap/BinominalHeap.h
-/Users/mplobanov/CLionProjects/heaps/binomial_heap/BinominalHeap.h
-../SimpleHeap.h
-/Users/mplobanov/CLionProjects/heaps/SimpleHeap.h
-../skew_heap/SkewHeap.h
-/Users/mplobanov/CLionProjects/heaps/skew_heap/SkewHeap.h
-../leftist_heap/LeftistHeap.h
-/Users/mplobanov/CLionProjects/heaps/leftist_heap/LeftistHeap.h
-special_test.h
-/Users/mplobanov/CLionProjects/heaps/Google_tests/special_test.h
 
 /Users/mplobanov/CLionProjects/heaps/IHeap.h
 

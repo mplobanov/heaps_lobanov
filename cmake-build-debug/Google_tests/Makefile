@@ -171,6 +171,33 @@ Google_Tests_run/fast:
 	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/build
 .PHONY : Google_Tests_run/fast
 
+GOOGLE_TESTS.o: GOOGLE_TESTS.cpp.o
+
+.PHONY : GOOGLE_TESTS.o
+
+# target to build an object file
+GOOGLE_TESTS.cpp.o:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.o
+.PHONY : GOOGLE_TESTS.cpp.o
+
+GOOGLE_TESTS.i: GOOGLE_TESTS.cpp.i
+
+.PHONY : GOOGLE_TESTS.i
+
+# target to preprocess a source file
+GOOGLE_TESTS.cpp.i:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.i
+.PHONY : GOOGLE_TESTS.cpp.i
+
+GOOGLE_TESTS.s: GOOGLE_TESTS.cpp.s
+
+.PHONY : GOOGLE_TESTS.s
+
+# target to generate assembly for a file
+GOOGLE_TESTS.cpp.s:
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.s
+.PHONY : GOOGLE_TESTS.cpp.s
+
 __/binomial_heap/assignment_operator.o: __/binomial_heap/assignment_operator.cpp.o
 
 .PHONY : __/binomial_heap/assignment_operator.o
@@ -792,33 +819,6 @@ random_operation_type.cpp.s:
 	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/random_operation_type.cpp.s
 .PHONY : random_operation_type.cpp.s
 
-test1.o: test1.cpp.o
-
-.PHONY : test1.o
-
-# target to build an object file
-test1.cpp.o:
-	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o
-.PHONY : test1.cpp.o
-
-test1.i: test1.cpp.i
-
-.PHONY : test1.i
-
-# target to preprocess a source file
-test1.cpp.i:
-	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.i
-.PHONY : test1.cpp.i
-
-test1.s: test1.cpp.s
-
-.PHONY : test1.s
-
-# target to generate assembly for a file
-test1.cpp.s:
-	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug && $(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.s
-.PHONY : test1.cpp.s
-
 test_constructor.o: test_constructor.cpp.o
 
 .PHONY : test_constructor.o
@@ -859,6 +859,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Google_Tests_run"
+	@echo "... GOOGLE_TESTS.o"
+	@echo "... GOOGLE_TESTS.i"
+	@echo "... GOOGLE_TESTS.s"
 	@echo "... __/binomial_heap/assignment_operator.o"
 	@echo "... __/binomial_heap/assignment_operator.i"
 	@echo "... __/binomial_heap/assignment_operator.s"
@@ -928,9 +931,6 @@ help:
 	@echo "... random_operation_type.o"
 	@echo "... random_operation_type.i"
 	@echo "... random_operation_type.s"
-	@echo "... test1.o"
-	@echo "... test1.i"
-	@echo "... test1.s"
 	@echo "... test_constructor.o"
 	@echo "... test_constructor.i"
 	@echo "... test_constructor.s"

@@ -256,6 +256,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mplobanov/CLionProjects/heaps/Google_tests/GOOGLE_TESTS.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/Google_tests/add_operation.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
@@ -272,9 +275,6 @@
 			<Option target="gtest_main"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/Google_tests/random_operation_type.cpp">
-			<Option target="Google_Tests_run"/>
-		</Unit>
-		<Unit filename="/Users/mplobanov/CLionProjects/heaps/Google_tests/test1.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="/Users/mplobanov/CLionProjects/heaps/Google_tests/test_constructor.cpp">

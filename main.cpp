@@ -10,8 +10,11 @@ int main(){
     int cnt1 = 0;
     BinomialHeap hp1;
     while (x != 0) {
-        if (x > 0)
-            hp1.insert(x);
+        if (x > 0){
+            BinomialHeap tmp;
+            tmp.insert(x);
+            hp1.meld(tmp);
+        }
         cin >> x;
         cnt1++;
     }
@@ -19,8 +22,11 @@ int main(){
     int cnt2 = 0;
     cin >> x;
     while (x != 0) {
-        if (x > 0)
-            hp2.insert(x);
+        if (x > 0){
+            BinomialHeap tmp;
+            tmp.insert(x);
+            hp2.meld(tmp);
+        }
         cin >> x;
         cnt2++;
     }

@@ -57,18 +57,18 @@ include Google_tests/CMakeFiles/Google_Tests_run.dir/progress.make
 # Include the compile flags for this target's objects.
 include Google_tests/CMakeFiles/Google_Tests_run.dir/flags.make
 
-Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o: Google_tests/CMakeFiles/Google_Tests_run.dir/flags.make
-Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o: ../Google_tests/test1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o"
-	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug/Google_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/test1.cpp.o -c /Users/mplobanov/CLionProjects/heaps/Google_tests/test1.cpp
+Google_tests/CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.o: Google_tests/CMakeFiles/Google_Tests_run.dir/flags.make
+Google_tests/CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.o: ../Google_tests/GOOGLE_TESTS.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Google_tests/CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.o"
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug/Google_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.o -c /Users/mplobanov/CLionProjects/heaps/Google_tests/GOOGLE_TESTS.cpp
 
-Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/test1.cpp.i"
-	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug/Google_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/Google_tests/test1.cpp > CMakeFiles/Google_Tests_run.dir/test1.cpp.i
+Google_tests/CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.i"
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug/Google_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mplobanov/CLionProjects/heaps/Google_tests/GOOGLE_TESTS.cpp > CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.i
 
-Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/test1.cpp.s"
-	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug/Google_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/Google_tests/test1.cpp -o CMakeFiles/Google_Tests_run.dir/test1.cpp.s
+Google_tests/CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.s"
+	cd /Users/mplobanov/CLionProjects/heaps/cmake-build-debug/Google_tests && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mplobanov/CLionProjects/heaps/Google_tests/GOOGLE_TESTS.cpp -o CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.s
 
 Google_tests/CMakeFiles/Google_Tests_run.dir/add_operation.cpp.o: Google_tests/CMakeFiles/Google_Tests_run.dir/flags.make
 Google_tests/CMakeFiles/Google_Tests_run.dir/add_operation.cpp.o: ../Google_tests/add_operation.cpp
@@ -384,7 +384,7 @@ Google_tests/CMakeFiles/Google_Tests_run.dir/__/skew_heap/meld.cpp.s: cmake_forc
 
 # Object files for target Google_Tests_run
 Google_Tests_run_OBJECTS = \
-"CMakeFiles/Google_Tests_run.dir/test1.cpp.o" \
+"CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.o" \
 "CMakeFiles/Google_Tests_run.dir/add_operation.cpp.o" \
 "CMakeFiles/Google_Tests_run.dir/random_operation_type.cpp.o" \
 "CMakeFiles/Google_Tests_run.dir/test_constructor.cpp.o" \
@@ -413,7 +413,7 @@ Google_Tests_run_OBJECTS = \
 # External object files for target Google_Tests_run
 Google_Tests_run_EXTERNAL_OBJECTS =
 
-Google_tests/Google_Tests_run: Google_tests/CMakeFiles/Google_Tests_run.dir/test1.cpp.o
+Google_tests/Google_Tests_run: Google_tests/CMakeFiles/Google_Tests_run.dir/GOOGLE_TESTS.cpp.o
 Google_tests/Google_Tests_run: Google_tests/CMakeFiles/Google_Tests_run.dir/add_operation.cpp.o
 Google_tests/Google_Tests_run: Google_tests/CMakeFiles/Google_Tests_run.dir/random_operation_type.cpp.o
 Google_tests/Google_Tests_run: Google_tests/CMakeFiles/Google_Tests_run.dir/test_constructor.cpp.o
