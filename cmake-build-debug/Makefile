@@ -56,6 +56,52 @@ CMAKE_BINARY_DIR = /Users/mplobanov/CLionProjects/heaps/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -123,6 +169,449 @@ heaps/fast:
 	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/build
 .PHONY : heaps/fast
 
+#=============================================================================
+# Target rules for targets named Google_Tests_run
+
+# Build rule for target.
+Google_Tests_run: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Google_Tests_run
+.PHONY : Google_Tests_run
+
+# fast build rule for target.
+Google_Tests_run/fast:
+	$(MAKE) -f Google_tests/CMakeFiles/Google_Tests_run.dir/build.make Google_tests/CMakeFiles/Google_Tests_run.dir/build
+.PHONY : Google_Tests_run/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) -f Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build.make Google_tests/lib/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) -f Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/build.make Google_tests/lib/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build.make Google_tests/lib/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f Google_tests/lib/googletest/CMakeFiles/gtest.dir/build.make Google_tests/lib/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+binomial_heap/assignment_operator.o: binomial_heap/assignment_operator.cpp.o
+
+.PHONY : binomial_heap/assignment_operator.o
+
+# target to build an object file
+binomial_heap/assignment_operator.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.o
+.PHONY : binomial_heap/assignment_operator.cpp.o
+
+binomial_heap/assignment_operator.i: binomial_heap/assignment_operator.cpp.i
+
+.PHONY : binomial_heap/assignment_operator.i
+
+# target to preprocess a source file
+binomial_heap/assignment_operator.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.i
+.PHONY : binomial_heap/assignment_operator.cpp.i
+
+binomial_heap/assignment_operator.s: binomial_heap/assignment_operator.cpp.s
+
+.PHONY : binomial_heap/assignment_operator.s
+
+# target to generate assembly for a file
+binomial_heap/assignment_operator.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.s
+.PHONY : binomial_heap/assignment_operator.cpp.s
+
+binomial_heap/binomial_tree/assignment_operator.o: binomial_heap/binomial_tree/assignment_operator.cpp.o
+
+.PHONY : binomial_heap/binomial_tree/assignment_operator.o
+
+# target to build an object file
+binomial_heap/binomial_tree/assignment_operator.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.o
+.PHONY : binomial_heap/binomial_tree/assignment_operator.cpp.o
+
+binomial_heap/binomial_tree/assignment_operator.i: binomial_heap/binomial_tree/assignment_operator.cpp.i
+
+.PHONY : binomial_heap/binomial_tree/assignment_operator.i
+
+# target to preprocess a source file
+binomial_heap/binomial_tree/assignment_operator.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.i
+.PHONY : binomial_heap/binomial_tree/assignment_operator.cpp.i
+
+binomial_heap/binomial_tree/assignment_operator.s: binomial_heap/binomial_tree/assignment_operator.cpp.s
+
+.PHONY : binomial_heap/binomial_tree/assignment_operator.s
+
+# target to generate assembly for a file
+binomial_heap/binomial_tree/assignment_operator.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.s
+.PHONY : binomial_heap/binomial_tree/assignment_operator.cpp.s
+
+binomial_heap/binomial_tree/copy_constructor.o: binomial_heap/binomial_tree/copy_constructor.cpp.o
+
+.PHONY : binomial_heap/binomial_tree/copy_constructor.o
+
+# target to build an object file
+binomial_heap/binomial_tree/copy_constructor.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.o
+.PHONY : binomial_heap/binomial_tree/copy_constructor.cpp.o
+
+binomial_heap/binomial_tree/copy_constructor.i: binomial_heap/binomial_tree/copy_constructor.cpp.i
+
+.PHONY : binomial_heap/binomial_tree/copy_constructor.i
+
+# target to preprocess a source file
+binomial_heap/binomial_tree/copy_constructor.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.i
+.PHONY : binomial_heap/binomial_tree/copy_constructor.cpp.i
+
+binomial_heap/binomial_tree/copy_constructor.s: binomial_heap/binomial_tree/copy_constructor.cpp.s
+
+.PHONY : binomial_heap/binomial_tree/copy_constructor.s
+
+# target to generate assembly for a file
+binomial_heap/binomial_tree/copy_constructor.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.s
+.PHONY : binomial_heap/binomial_tree/copy_constructor.cpp.s
+
+binomial_heap/binomial_tree/destructor.o: binomial_heap/binomial_tree/destructor.cpp.o
+
+.PHONY : binomial_heap/binomial_tree/destructor.o
+
+# target to build an object file
+binomial_heap/binomial_tree/destructor.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.o
+.PHONY : binomial_heap/binomial_tree/destructor.cpp.o
+
+binomial_heap/binomial_tree/destructor.i: binomial_heap/binomial_tree/destructor.cpp.i
+
+.PHONY : binomial_heap/binomial_tree/destructor.i
+
+# target to preprocess a source file
+binomial_heap/binomial_tree/destructor.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.i
+.PHONY : binomial_heap/binomial_tree/destructor.cpp.i
+
+binomial_heap/binomial_tree/destructor.s: binomial_heap/binomial_tree/destructor.cpp.s
+
+.PHONY : binomial_heap/binomial_tree/destructor.s
+
+# target to generate assembly for a file
+binomial_heap/binomial_tree/destructor.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.s
+.PHONY : binomial_heap/binomial_tree/destructor.cpp.s
+
+binomial_heap/binomial_tree/log.o: binomial_heap/binomial_tree/log.cpp.o
+
+.PHONY : binomial_heap/binomial_tree/log.o
+
+# target to build an object file
+binomial_heap/binomial_tree/log.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.o
+.PHONY : binomial_heap/binomial_tree/log.cpp.o
+
+binomial_heap/binomial_tree/log.i: binomial_heap/binomial_tree/log.cpp.i
+
+.PHONY : binomial_heap/binomial_tree/log.i
+
+# target to preprocess a source file
+binomial_heap/binomial_tree/log.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.i
+.PHONY : binomial_heap/binomial_tree/log.cpp.i
+
+binomial_heap/binomial_tree/log.s: binomial_heap/binomial_tree/log.cpp.s
+
+.PHONY : binomial_heap/binomial_tree/log.s
+
+# target to generate assembly for a file
+binomial_heap/binomial_tree/log.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.s
+.PHONY : binomial_heap/binomial_tree/log.cpp.s
+
+binomial_heap/binomial_tree/unite.o: binomial_heap/binomial_tree/unite.cpp.o
+
+.PHONY : binomial_heap/binomial_tree/unite.o
+
+# target to build an object file
+binomial_heap/binomial_tree/unite.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.o
+.PHONY : binomial_heap/binomial_tree/unite.cpp.o
+
+binomial_heap/binomial_tree/unite.i: binomial_heap/binomial_tree/unite.cpp.i
+
+.PHONY : binomial_heap/binomial_tree/unite.i
+
+# target to preprocess a source file
+binomial_heap/binomial_tree/unite.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.i
+.PHONY : binomial_heap/binomial_tree/unite.cpp.i
+
+binomial_heap/binomial_tree/unite.s: binomial_heap/binomial_tree/unite.cpp.s
+
+.PHONY : binomial_heap/binomial_tree/unite.s
+
+# target to generate assembly for a file
+binomial_heap/binomial_tree/unite.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.s
+.PHONY : binomial_heap/binomial_tree/unite.cpp.s
+
+binomial_heap/copy_constructor.o: binomial_heap/copy_constructor.cpp.o
+
+.PHONY : binomial_heap/copy_constructor.o
+
+# target to build an object file
+binomial_heap/copy_constructor.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.o
+.PHONY : binomial_heap/copy_constructor.cpp.o
+
+binomial_heap/copy_constructor.i: binomial_heap/copy_constructor.cpp.i
+
+.PHONY : binomial_heap/copy_constructor.i
+
+# target to preprocess a source file
+binomial_heap/copy_constructor.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.i
+.PHONY : binomial_heap/copy_constructor.cpp.i
+
+binomial_heap/copy_constructor.s: binomial_heap/copy_constructor.cpp.s
+
+.PHONY : binomial_heap/copy_constructor.s
+
+# target to generate assembly for a file
+binomial_heap/copy_constructor.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.s
+.PHONY : binomial_heap/copy_constructor.cpp.s
+
+binomial_heap/extract_min.o: binomial_heap/extract_min.cpp.o
+
+.PHONY : binomial_heap/extract_min.o
+
+# target to build an object file
+binomial_heap/extract_min.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.o
+.PHONY : binomial_heap/extract_min.cpp.o
+
+binomial_heap/extract_min.i: binomial_heap/extract_min.cpp.i
+
+.PHONY : binomial_heap/extract_min.i
+
+# target to preprocess a source file
+binomial_heap/extract_min.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.i
+.PHONY : binomial_heap/extract_min.cpp.i
+
+binomial_heap/extract_min.s: binomial_heap/extract_min.cpp.s
+
+.PHONY : binomial_heap/extract_min.s
+
+# target to generate assembly for a file
+binomial_heap/extract_min.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.s
+.PHONY : binomial_heap/extract_min.cpp.s
+
+binomial_heap/get_min.o: binomial_heap/get_min.cpp.o
+
+.PHONY : binomial_heap/get_min.o
+
+# target to build an object file
+binomial_heap/get_min.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.o
+.PHONY : binomial_heap/get_min.cpp.o
+
+binomial_heap/get_min.i: binomial_heap/get_min.cpp.i
+
+.PHONY : binomial_heap/get_min.i
+
+# target to preprocess a source file
+binomial_heap/get_min.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.i
+.PHONY : binomial_heap/get_min.cpp.i
+
+binomial_heap/get_min.s: binomial_heap/get_min.cpp.s
+
+.PHONY : binomial_heap/get_min.s
+
+# target to generate assembly for a file
+binomial_heap/get_min.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.s
+.PHONY : binomial_heap/get_min.cpp.s
+
+binomial_heap/heap_constructor_from_tree.o: binomial_heap/heap_constructor_from_tree.cpp.o
+
+.PHONY : binomial_heap/heap_constructor_from_tree.o
+
+# target to build an object file
+binomial_heap/heap_constructor_from_tree.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.o
+.PHONY : binomial_heap/heap_constructor_from_tree.cpp.o
+
+binomial_heap/heap_constructor_from_tree.i: binomial_heap/heap_constructor_from_tree.cpp.i
+
+.PHONY : binomial_heap/heap_constructor_from_tree.i
+
+# target to preprocess a source file
+binomial_heap/heap_constructor_from_tree.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.i
+.PHONY : binomial_heap/heap_constructor_from_tree.cpp.i
+
+binomial_heap/heap_constructor_from_tree.s: binomial_heap/heap_constructor_from_tree.cpp.s
+
+.PHONY : binomial_heap/heap_constructor_from_tree.s
+
+# target to generate assembly for a file
+binomial_heap/heap_constructor_from_tree.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.s
+.PHONY : binomial_heap/heap_constructor_from_tree.cpp.s
+
+binomial_heap/insert.o: binomial_heap/insert.cpp.o
+
+.PHONY : binomial_heap/insert.o
+
+# target to build an object file
+binomial_heap/insert.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/insert.cpp.o
+.PHONY : binomial_heap/insert.cpp.o
+
+binomial_heap/insert.i: binomial_heap/insert.cpp.i
+
+.PHONY : binomial_heap/insert.i
+
+# target to preprocess a source file
+binomial_heap/insert.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/insert.cpp.i
+.PHONY : binomial_heap/insert.cpp.i
+
+binomial_heap/insert.s: binomial_heap/insert.cpp.s
+
+.PHONY : binomial_heap/insert.s
+
+# target to generate assembly for a file
+binomial_heap/insert.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/insert.cpp.s
+.PHONY : binomial_heap/insert.cpp.s
+
+binomial_heap/log.o: binomial_heap/log.cpp.o
+
+.PHONY : binomial_heap/log.o
+
+# target to build an object file
+binomial_heap/log.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/log.cpp.o
+.PHONY : binomial_heap/log.cpp.o
+
+binomial_heap/log.i: binomial_heap/log.cpp.i
+
+.PHONY : binomial_heap/log.i
+
+# target to preprocess a source file
+binomial_heap/log.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/log.cpp.i
+.PHONY : binomial_heap/log.cpp.i
+
+binomial_heap/log.s: binomial_heap/log.cpp.s
+
+.PHONY : binomial_heap/log.s
+
+# target to generate assembly for a file
+binomial_heap/log.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/log.cpp.s
+.PHONY : binomial_heap/log.cpp.s
+
+binomial_heap/meld.o: binomial_heap/meld.cpp.o
+
+.PHONY : binomial_heap/meld.o
+
+# target to build an object file
+binomial_heap/meld.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/meld.cpp.o
+.PHONY : binomial_heap/meld.cpp.o
+
+binomial_heap/meld.i: binomial_heap/meld.cpp.i
+
+.PHONY : binomial_heap/meld.i
+
+# target to preprocess a source file
+binomial_heap/meld.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/meld.cpp.i
+.PHONY : binomial_heap/meld.cpp.i
+
+binomial_heap/meld.s: binomial_heap/meld.cpp.s
+
+.PHONY : binomial_heap/meld.s
+
+# target to generate assembly for a file
+binomial_heap/meld.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/meld.cpp.s
+.PHONY : binomial_heap/meld.cpp.s
+
+binomial_heap/meld_tree.o: binomial_heap/meld_tree.cpp.o
+
+.PHONY : binomial_heap/meld_tree.o
+
+# target to build an object file
+binomial_heap/meld_tree.cpp.o:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.o
+.PHONY : binomial_heap/meld_tree.cpp.o
+
+binomial_heap/meld_tree.i: binomial_heap/meld_tree.cpp.i
+
+.PHONY : binomial_heap/meld_tree.i
+
+# target to preprocess a source file
+binomial_heap/meld_tree.cpp.i:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.i
+.PHONY : binomial_heap/meld_tree.cpp.i
+
+binomial_heap/meld_tree.s: binomial_heap/meld_tree.cpp.s
+
+.PHONY : binomial_heap/meld_tree.s
+
+# target to generate assembly for a file
+binomial_heap/meld_tree.cpp.s:
+	$(MAKE) -f CMakeFiles/heaps.dir/build.make CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.s
+.PHONY : binomial_heap/meld_tree.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -156,9 +645,60 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... install"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... heaps"
+	@echo "... Google_Tests_run"
+	@echo "... gmock"
+	@echo "... gmock_main"
+	@echo "... gtest_main"
+	@echo "... gtest"
+	@echo "... binomial_heap/assignment_operator.o"
+	@echo "... binomial_heap/assignment_operator.i"
+	@echo "... binomial_heap/assignment_operator.s"
+	@echo "... binomial_heap/binomial_tree/assignment_operator.o"
+	@echo "... binomial_heap/binomial_tree/assignment_operator.i"
+	@echo "... binomial_heap/binomial_tree/assignment_operator.s"
+	@echo "... binomial_heap/binomial_tree/copy_constructor.o"
+	@echo "... binomial_heap/binomial_tree/copy_constructor.i"
+	@echo "... binomial_heap/binomial_tree/copy_constructor.s"
+	@echo "... binomial_heap/binomial_tree/destructor.o"
+	@echo "... binomial_heap/binomial_tree/destructor.i"
+	@echo "... binomial_heap/binomial_tree/destructor.s"
+	@echo "... binomial_heap/binomial_tree/log.o"
+	@echo "... binomial_heap/binomial_tree/log.i"
+	@echo "... binomial_heap/binomial_tree/log.s"
+	@echo "... binomial_heap/binomial_tree/unite.o"
+	@echo "... binomial_heap/binomial_tree/unite.i"
+	@echo "... binomial_heap/binomial_tree/unite.s"
+	@echo "... binomial_heap/copy_constructor.o"
+	@echo "... binomial_heap/copy_constructor.i"
+	@echo "... binomial_heap/copy_constructor.s"
+	@echo "... binomial_heap/extract_min.o"
+	@echo "... binomial_heap/extract_min.i"
+	@echo "... binomial_heap/extract_min.s"
+	@echo "... binomial_heap/get_min.o"
+	@echo "... binomial_heap/get_min.i"
+	@echo "... binomial_heap/get_min.s"
+	@echo "... binomial_heap/heap_constructor_from_tree.o"
+	@echo "... binomial_heap/heap_constructor_from_tree.i"
+	@echo "... binomial_heap/heap_constructor_from_tree.s"
+	@echo "... binomial_heap/insert.o"
+	@echo "... binomial_heap/insert.i"
+	@echo "... binomial_heap/insert.s"
+	@echo "... binomial_heap/log.o"
+	@echo "... binomial_heap/log.i"
+	@echo "... binomial_heap/log.s"
+	@echo "... binomial_heap/meld.o"
+	@echo "... binomial_heap/meld.i"
+	@echo "... binomial_heap/meld.s"
+	@echo "... binomial_heap/meld_tree.o"
+	@echo "... binomial_heap/meld_tree.i"
+	@echo "... binomial_heap/meld_tree.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

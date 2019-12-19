@@ -4,6 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/assignment_operator.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/assignment_operator.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/assignment_operator.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/binomial_tree/assignment_operator.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/copy_constructor.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/binomial_tree/copy_constructor.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/destructor.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/binomial_tree/destructor.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/log.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/binomial_tree/log.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/unite.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/binomial_tree/unite.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/copy_constructor.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/copy_constructor.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/extract_min.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/extract_min.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/get_min.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/get_min.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/heap_constructor_from_tree.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/heap_constructor_from_tree.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/insert.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/insert.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/log.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/log.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/meld.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/meld.cpp.o"
+  "/Users/mplobanov/CLionProjects/heaps/binomial_heap/meld_tree.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/binomial_heap/meld_tree.cpp.o"
   "/Users/mplobanov/CLionProjects/heaps/main.cpp" "/Users/mplobanov/CLionProjects/heaps/cmake-build-debug/CMakeFiles/heaps.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

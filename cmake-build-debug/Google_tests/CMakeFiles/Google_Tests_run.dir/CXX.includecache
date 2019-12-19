@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mplobanov/CLionProjects/heaps/IHeap.h
+
+/Users/mplobanov/CLionProjects/heaps/binomial_heap/BinominalHeap.h
+../IHeap.h
+/Users/mplobanov/CLionProjects/heaps/IHeap.h
+binomial_tree/BinomialTree.h
+/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/BinomialTree.h
+vector
+-
+iostream
+-
+list
+-
+
+/Users/mplobanov/CLionProjects/heaps/binomial_heap/binomial_tree/BinomialTree.h
+list
+-
+iostream
+-
+
+/Users/mplobanov/CLionProjects/heaps/binomial_heap/meld.cpp
+BinominalHeap.h
+/Users/mplobanov/CLionProjects/heaps/binomial_heap/BinominalHeap.h
+
