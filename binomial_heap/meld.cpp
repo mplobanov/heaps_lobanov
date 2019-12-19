@@ -17,6 +17,20 @@ void BinomialHeap::meld(BinomialHeap &other) {
     auto it_mine = _roots.begin();
     while (it_other != other._roots.end() && it_mine != _roots.end())
     {
+        while (true){
+            auto it_mine_next = it_mine;
+            it_mine_next++;
+            if(it_mine_next == _roots.end())
+                break;
+            if ((*it_mine)->_degree == (*it_mine_next)->_degree){
+                (*it_mine)->unite(*(*it_mine_next));
+                _roots.erase(it_mine_next);
+                it_mine_next = it_mine;
+                it_mine_next++;
+            }
+            else
+                break;
+        }
         if ((*it_other)->_degree == (*it_mine)->_degree){
             (*it_mine)->unite(**it_other);
             it_other++;
@@ -33,24 +47,6 @@ void BinomialHeap::meld(BinomialHeap &other) {
     while (it_other != other._roots.end()){
         _roots.push_back(*it_other);
         it_other++;
-    }
-
-    it_mine = _roots.begin();
-    while (it_mine != _roots.end()){
-        if (it_mine != _roots.end())
-        {
-            auto it_mine_next = it_mine;
-            it_mine_next++;
-            if(it_mine_next == _roots.end())
-                break;
-            if ((*it_mine)->_degree == (*it_mine_next)->_degree){
-                (*it_mine)->unite(*(*it_mine_next));
-                _roots.erase(it_mine_next);
-                it_mine_next = it_mine;
-                it_mine_next++;
-            }
-        }
-        it_mine++;
     }
 
 

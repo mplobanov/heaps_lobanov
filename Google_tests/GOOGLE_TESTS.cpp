@@ -10,7 +10,7 @@
 #include "special_test.h" // Special Tests
 
 
-int TEST_SIZE = 10'000; // not the exact amount of operations, but approximate
+int TEST_SIZE = 100'000; // not the exact amount of operations, but approximate
 int MAXIMUM_INT = 20; // long and strange name in order not to confuse with INT_MAX constants
 
 
